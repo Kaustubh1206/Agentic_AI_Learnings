@@ -34,3 +34,5 @@ torchvision
 torchaudio
 
 streamlit
+
+langsmith

@@ -1,7 +1,7 @@
 {
     "dependencies":["."],
     "graphs":{
-        "5_graph": "./module-1/5. graph_model_tool.py:graph"
+        "6_graph": "./module-1/6. graph_tool_call.py:graph"
     },
     "env":".env"
 }

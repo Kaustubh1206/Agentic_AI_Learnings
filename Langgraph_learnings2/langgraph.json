@@ -1,7 +1,7 @@
 {
     "dependencies":["."],
     "graphs":{
-        "8_graph": "./module-1/8. graph_agent.py:graph"
+        "7_graph": "./module-1/7. graph_agent.py:graph"
     },
     "env":".env"
 }

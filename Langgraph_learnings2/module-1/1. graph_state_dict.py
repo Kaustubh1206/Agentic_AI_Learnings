@@ -2,7 +2,6 @@ from langgraph.graph import START, END , StateGraph
 from dotenv import load_dotenv
 from typing_extensions import TypedDict
 
-from asyncio import graph
 
 # State 
 class State(TypedDict):
@@ -25,11 +24,10 @@ builder.add_node("greeting",greeting)
 
 #  Add edges
 
-builder.add_edges(START,"greeting")
-builder.add_edges("greeting",END)
+builder.add_edge(START,"greeting")
+builder.add_edge("greeting",END)
 
 
 graph=builder.compile()
 
 
-graph.invoke()

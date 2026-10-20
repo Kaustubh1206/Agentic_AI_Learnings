@@ -1,7 +1,7 @@
 {
     "dependencies":["."],
     "graphs":{
-        "7_graph": "./module-1/7. graph_agent.py:graph"
+        "9_graph": "./module-1/9. graph_agent_memory.py:graph"
     },
     "env":".env"
 }
